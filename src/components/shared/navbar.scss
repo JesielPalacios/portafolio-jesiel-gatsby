@@ -1,0 +1,24 @@
+.navigation {
+  display: grid;
+  background-color: red;
+  height: 50px;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 3rem;
+  li {
+    a {
+      text-decoration: none;
+      padding: 5px;
+      color: black;
+      transition: all 0.6;
+      &:hover {
+        opacity: 0.7;
+        font-weight: 500;
+        color: lightslategray;
+        text-decoration: underline;
+      }
+    }
+  }
+}
