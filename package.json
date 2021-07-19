@@ -8,9 +8,8 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "dev": "npm run develop",
-    "start": "node server.js",
-      "serve": "gatsby serve",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
